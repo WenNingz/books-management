@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/{any}', function () {
     return view('index');
 });
+
+Route::get('/books', function () {
+    return view('index');
+});
