@@ -20,5 +20,5 @@ Route::get('/{any}', function () {
 });
 
 Route::get('/books', function () {
-    return view('index');
+    return view('books');
 });
